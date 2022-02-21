@@ -20,6 +20,7 @@ const Layout = (props) => {
           box-sizing:inherit;
         }
         body{
+          font-family:'PT Sans', serif;
           font-size:1.6rem; 
           line-height:1.5;
           }
@@ -27,6 +28,14 @@ const Layout = (props) => {
             margin: 0 0 2rem 0;
             line-height:1.5;
 
+          }
+          h1,h2{
+            font-family:'Roboto Slab', serif;
+            font-weight:700;
+          }
+          h3{
+            font-family:'PT Sans', serif;
+            font-weight:700;
           }
         ul{
           text-decoration:none;
@@ -39,11 +48,11 @@ const Layout = (props) => {
       `}
     />
     <Head>
-      <html lang="en">
-      <meta charSet="utf-8" />
+      <title>Product Hunt - Clone site with Nextjs</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-       <title>Product Hunt - Clone site with Nextjs</title>
-      </html>
+      <meta charSet="utf-8" />
+     
+ 
     </Head>
       <Header />
       <main>
